@@ -46,13 +46,28 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -64,7 +79,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(317, 26);
+            this.label1.Location = new System.Drawing.Point(315, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 30);
             this.label1.TabIndex = 1;
@@ -244,6 +259,72 @@
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EMS.Properties.Resources._19339625881548233621_128;
+            this.pictureBox1.Location = new System.Drawing.Point(286, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(340, 60);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(98, 25);
+            this.label9.TabIndex = 27;
+            this.label9.Text = "Employees";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(498, 60);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(120, 25);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "Departments";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::EMS.Properties.Resources._2440463971582985690_128;
+            this.pictureBox2.Location = new System.Drawing.Point(444, 38);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(678, 60);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(77, 25);
+            this.label11.TabIndex = 31;
+            this.label11.Text = "Log out";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::EMS.Properties.Resources._16147924811618134427_128;
+            this.pictureBox3.Location = new System.Drawing.Point(624, 38);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
+            // 
             // employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -275,6 +356,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -300,5 +384,11 @@
         private DateTimePicker dateTimePicker2;
         private Button button1;
         private Button button2;
+        private Label label11;
+        private PictureBox pictureBox3;
+        private Label label10;
+        private PictureBox pictureBox2;
+        private Label label9;
+        private PictureBox pictureBox1;
     }
 }
