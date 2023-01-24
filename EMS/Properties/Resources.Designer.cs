@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ems.Properties {
+namespace EMS.Properties {
     using System;
     
     
@@ -66,6 +66,36 @@ namespace ems.Properties {
         internal static System.Drawing.Bitmap _15297262951582799500_128 {
             get {
                 object obj = ResourceManager.GetObject("15297262951582799500-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _16147924811618134427_128 {
+            get {
+                object obj = ResourceManager.GetObject("16147924811618134427-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _19339625881548233621_128 {
+            get {
+                object obj = ResourceManager.GetObject("19339625881548233621-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2440463971582985690_128 {
+            get {
+                object obj = ResourceManager.GetObject("2440463971582985690-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
