@@ -111,6 +111,16 @@ namespace ems
             this.DepTab.TabIndex = 29;
             this.DepTab.Text = "Departments";
             this.DepTab.Click += new System.EventHandler(this.DepTab_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::EMS.Properties.Resources._2440463971582985690_128;
+            this.pictureBox2.Location = new System.Drawing.Point(444, 38);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
             // label1
             // 
             this.label1.AutoSize = true;
