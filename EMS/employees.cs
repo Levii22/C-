@@ -67,6 +67,7 @@ namespace ems
                 else
                 {
                     string name = EmpName.Text;
+                    string gender = EmpGen.SelectedItem.ToString();
                 }
             }
         }
