@@ -184,6 +184,18 @@ namespace ems
             this.label6.Size = new System.Drawing.Size(154, 25);
             this.label6.TabIndex = 14;
             this.label6.Text = "Employee System";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(61, 103);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(39, 25);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "C#";
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
