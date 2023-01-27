@@ -113,6 +113,9 @@ namespace EMS
                 {
                     MessageBox.Show("Missing data!");
                 }
+                else
+                {
+                }
             }
         }
     }
