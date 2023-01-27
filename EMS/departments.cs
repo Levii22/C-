@@ -136,3 +136,9 @@ namespace EMS
             Obj.Show();
             this.Hide();
         }
+
+        private void logoutbtn_Click(object sender, EventArgs e)
+        {
+        }
+    }
+}
