@@ -327,6 +327,7 @@ namespace ems
             this.UpdateBtn.TabIndex = 26;
             this.UpdateBtn.Text = "Update";
             this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
             // 
             // DelBtn
             // 
