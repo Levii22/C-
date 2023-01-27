@@ -140,6 +140,7 @@ namespace EMS
         private void logoutbtn_Click(object sender, EventArgs e)
         {
             Login Obj = new Login();
+            Obj.Show();
         }
     }
 }
