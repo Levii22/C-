@@ -76,7 +76,7 @@ namespace ems
             this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.password.Location = new System.Drawing.Point(268, 200);
             this.password.Name = "password";
-            this.textBox2.Size = new System.Drawing.Size(185, 26);
+            this.password.PasswordChar = '*';
             this.password.Size = new System.Drawing.Size(185, 26);
             this.password.TabIndex = 3;
             // 
