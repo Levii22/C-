@@ -127,6 +127,7 @@ namespace ems
         {
             try
             {
+                string Query = "Delete from EmployeeTable where EmpID = '{0}'";
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
