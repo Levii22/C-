@@ -71,6 +71,7 @@ namespace EMS
             }
             if (DepNameTb.Text == "")
             {
+                Key = 0;
             }
         }
         }
