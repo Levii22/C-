@@ -34,6 +34,7 @@ namespace ems
             string Query = "SELECT * FROM DepartmentTable";
             EmpDep.DisplayMember = Con.GetData(Query).Columns["DepName"].ToString();
             EmpDep.ValueMember = Con.GetData(Query).Columns["DepID"].ToString();
+            EmpDep.DataSource = Con.GetData(Query);
         }
         }
 
