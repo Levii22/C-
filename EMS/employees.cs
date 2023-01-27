@@ -123,7 +123,7 @@ namespace ems
             }
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void DelBtn_Click(object sender, EventArgs e)
         {
 
         }
