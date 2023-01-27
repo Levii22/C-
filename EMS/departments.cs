@@ -55,6 +55,9 @@ namespace EMS
                     DepNameTb.Text = "";
                 }
             }
+            catch (Exception Ex)
+            {
+            }
         }
         }
     }
