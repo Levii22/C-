@@ -17,5 +17,6 @@ namespace EMS
         private string ConStr;
         public Functions()
         {
+            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Repos\C-\EMS\empDB.mdf;Integrated Security=True;Connect Timeout=5";
     }
 }
