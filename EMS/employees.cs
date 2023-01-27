@@ -93,6 +93,8 @@ namespace ems
         {
             try
             {
+                if (EmpName.Text == "" || EmpGen.SelectedIndex == -1 || EmpDep.SelectedIndex == -1 || EmpSal.Text == "")
+                {
 
             }
             catch (Exception Ex)
