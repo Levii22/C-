@@ -39,6 +39,9 @@ namespace EMS
             {
                 Con.Open();
             }
+            Cmd.CommandText = Query;
+            cnt = Cmd.ExecuteNonQuery();
+            return cnt;
         }
     }
 }
