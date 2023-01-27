@@ -96,8 +96,9 @@ namespace EMS
                     Con.SetData(Query);
                     ListDepartments();
                     MessageBox.Show("Updated.");
+                    DepNameTb.Text = "";
                 }
-        }
+            }
             }
         }
     }
