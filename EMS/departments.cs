@@ -57,6 +57,7 @@ namespace EMS
             }
             catch (Exception Ex)
             {
+                MessageBox.Show(Ex.Message);
             }
         }
         }
