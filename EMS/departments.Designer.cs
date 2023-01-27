@@ -140,7 +140,7 @@ namespace EMS
             this.departdata.GridColor = System.Drawing.Color.White;
             this.departdata.Location = new System.Drawing.Point(238, 189);
             this.departdata.Name = "departdata";
-            this.dataGridView1.TabIndex = 39;
+            this.departdata.ReadOnly = true;
             this.departdata.RowTemplate.Height = 25;
             this.departdata.Size = new System.Drawing.Size(751, 507);
             this.departdata.TabIndex = 39;
