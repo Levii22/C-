@@ -116,6 +116,7 @@ namespace EMS
                 else
                 {
                     string Dep = DepNameTb.Text;
+                    string Query = "Delete from DepartmentTable where DepID = '{0}' ";
                 }
             }
         }
