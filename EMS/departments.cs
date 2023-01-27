@@ -69,6 +69,9 @@ namespace EMS
                 DepNameTb.Text = row.Cells[1].Value.ToString();
                 Key = Convert.ToInt32(row.Cells[0].Value.ToString());
             }
+            if (DepNameTb.Text == "")
+            {
+            }
         }
         }
     }
