@@ -104,5 +104,9 @@ namespace EMS
                 MessageBox.Show(Ex.Message);
             }
         }
+
+        private void Delbutton_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

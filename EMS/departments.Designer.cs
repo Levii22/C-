@@ -231,6 +231,7 @@ namespace EMS
             this.Delbutton.TabIndex = 44;
             this.Delbutton.Text = "Delete";
             this.Delbutton.UseVisualStyleBackColor = false;
+            this.Delbutton.Click += new System.EventHandler(this.Delbutton_Click);
             // 
             // departments
             // 
