@@ -133,6 +133,17 @@ namespace ems
             this.label9.Size = new System.Drawing.Size(98, 25);
             this.label9.TabIndex = 27;
             this.label9.Text = "Employees";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EMS.Properties.Resources._19339625881548233621_128;
+            this.pictureBox1.Location = new System.Drawing.Point(286, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
