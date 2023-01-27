@@ -76,6 +76,17 @@ namespace ems
             this.panel1.Size = new System.Drawing.Size(1013, 88);
             this.panel1.TabIndex = 0;
             // 
+            // logoutbtn
+            // 
+            this.logoutbtn.AutoSize = true;
+            this.logoutbtn.BackColor = System.Drawing.Color.Transparent;
+            this.logoutbtn.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.logoutbtn.ForeColor = System.Drawing.Color.Black;
+            this.logoutbtn.Location = new System.Drawing.Point(678, 60);
+            this.logoutbtn.Name = "logoutbtn";
+            this.logoutbtn.Size = new System.Drawing.Size(77, 25);
+            this.logoutbtn.TabIndex = 31;
+            this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
             // label1
             // 
             this.label1.AutoSize = true;
