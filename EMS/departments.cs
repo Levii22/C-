@@ -60,6 +60,7 @@ namespace EMS
                 MessageBox.Show(Ex.Message);
             }
         }
+        int Key = 0;
         }
     }
 }
