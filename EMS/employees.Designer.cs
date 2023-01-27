@@ -88,6 +88,16 @@ namespace ems
             this.logoutbtn.TabIndex = 31;
             this.logoutbtn.Text = "Log out";
             this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::EMS.Properties.Resources._16147924811618134427_128;
+            this.pictureBox3.Location = new System.Drawing.Point(624, 38);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 47);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
             // label1
             // 
             this.label1.AutoSize = true;
