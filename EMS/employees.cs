@@ -143,7 +143,7 @@ namespace ems
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void logoutbtn_Click(object sender, EventArgs e)
         {
 
         }
