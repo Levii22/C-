@@ -17,6 +17,7 @@ namespace ems
         public employees()
         {
             InitializeComponent();
+            Con = new Functions();
         }
 
         private void label1_Click(object sender, EventArgs e)
