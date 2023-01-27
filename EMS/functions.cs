@@ -15,5 +15,7 @@ namespace EMS
         private DataTable Dt;
         private SqlDataAdapter Da;
         private string ConStr;
+        public Functions()
+        {
     }
 }
