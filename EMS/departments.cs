@@ -107,6 +107,9 @@ namespace EMS
 
         private void Delbutton_Click(object sender, EventArgs e)
         {
+            try
+            {
+            }
         }
     }
 }
