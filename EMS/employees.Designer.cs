@@ -314,18 +314,18 @@ namespace ems
             this.Addbtn.Text = "Add";
             this.Addbtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // UpdateBtn
             // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.FlatAppearance.BorderSize = 3;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(127, 630);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 44);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Update";
-            this.button2.UseVisualStyleBackColor = false;
+            this.UpdateBtn.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.UpdateBtn.FlatAppearance.BorderSize = 3;
+            this.UpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UpdateBtn.Location = new System.Drawing.Point(127, 604);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(105, 44);
+            this.UpdateBtn.TabIndex = 26;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
