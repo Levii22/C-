@@ -27,8 +27,10 @@ namespace ems
             EmpData.DataSource = Con.GetData(Query);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        int Key = 0;
+        private void EmpData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+        }
 
         private void GetDepartments()
         {
