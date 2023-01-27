@@ -77,6 +77,10 @@ namespace ems
                     Con.SetData(Query);
                     ListEmployees();
                     MessageBox.Show("Added.");
+                    EmpName.Text = "";
+                    EmpGen.SelectedIndex = -1;
+                    EmpDep.SelectedIndex = -1;
+                    EmpSal.Text = "";
                 }
             }
         }
