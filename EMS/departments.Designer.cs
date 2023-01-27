@@ -40,7 +40,7 @@ namespace EMS
             this.button1 = new System.Windows.Forms.Button();
             this.departdata = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.DepNameTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@ namespace EMS
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.departdata)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -158,13 +158,13 @@ namespace EMS
             this.label4.TabIndex = 30;
             this.label4.Text = "Department name";
             // 
-            // textBox1
+            // DepNameTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(12, 217);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 26);
-            this.textBox1.TabIndex = 29;
+            this.DepNameTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DepNameTb.Location = new System.Drawing.Point(12, 217);
+            this.DepNameTb.Name = "DepNameTb";
+            this.DepNameTb.Size = new System.Drawing.Size(185, 26);
+            this.DepNameTb.TabIndex = 29;
             // 
             // label2
             // 
@@ -247,15 +247,15 @@ namespace EMS
         #endregion
 
         private PictureBox pictureBox3;
-        private Label label10;
+        private Label DepTab;
         private PictureBox pictureBox2;
-        private Label label9;
+        private Label EmpTab;
         private PictureBox pictureBox1;
         private Button button2;
         private Button button1;
-        private DataGridView dataGridView1;
+        private DataGridView departdata;
         private Label label4;
-        private TextBox textBox1;
+        private TextBox DepNameTb;
         private Label label2;
         private Label label11;
         private Label label1;
