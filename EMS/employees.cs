@@ -31,6 +31,7 @@ namespace ems
 
         private void GetDepartments()
         {
+            string Query = "SELECT * FROM DepartmentTable";
         }
         }
 
