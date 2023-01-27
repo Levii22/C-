@@ -31,6 +31,7 @@ namespace ems
         private void EmpData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             EmpName.Text = EmpData.Rows[e.RowIndex].Cells[1].Value.ToString();
+            EmpGen.Text = EmpData.Rows[e.RowIndex].Cells[2].Value.ToString();
         }
 
         private void GetDepartments()
