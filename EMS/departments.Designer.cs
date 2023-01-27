@@ -34,7 +34,7 @@ namespace EMS
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.DepTab = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.EmpTab = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -84,17 +84,18 @@ namespace EMS
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
             // 
-            // label9
+            // EmpTab
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(340, 60);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(98, 25);
-            this.label9.TabIndex = 27;
-            this.label9.Text = "Employees";
+            this.EmpTab.AutoSize = true;
+            this.EmpTab.BackColor = System.Drawing.Color.Transparent;
+            this.EmpTab.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.EmpTab.ForeColor = System.Drawing.Color.Black;
+            this.EmpTab.Location = new System.Drawing.Point(340, 60);
+            this.EmpTab.Name = "EmpTab";
+            this.EmpTab.Size = new System.Drawing.Size(98, 25);
+            this.EmpTab.TabIndex = 27;
+            this.EmpTab.Text = "Employees";
+            this.EmpTab.Click += new System.EventHandler(this.EmpTab_Click);
             // 
             // pictureBox1
             // 
