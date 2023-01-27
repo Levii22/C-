@@ -100,6 +100,7 @@ namespace ems
                 }
                 else
                 {
+                    string name = EmpName.Text;
                 }
             }
             catch (Exception Ex)
