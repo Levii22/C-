@@ -131,6 +131,12 @@ namespace ems
                 Query = string.Format(Query, Key);
                 Con.SetData(Query);
                 ListEmployees();
+                MessageBox.Show("Deleted.");
+                EmpName.Text = "";
+                EmpGen.SelectedIndex = -1;
+                EmpDep.SelectedIndex = -1;
+                EmpSal.Text = "";
+            }
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
