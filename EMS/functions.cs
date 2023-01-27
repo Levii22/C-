@@ -14,5 +14,6 @@ namespace EMS
         private SqlCommand Cmd;
         private DataTable Dt;
         private SqlDataAdapter Da;
+        private string ConStr;
     }
 }
