@@ -107,6 +107,7 @@ namespace ems
                     string Jdate = EmpJDate.Value.Date.ToString("yyyy-MM-dd");
                     string DOB = EmpDOB.Value.Date.ToString("yyyy-MM-dd");
                     string Query = "Update EmployeeTable set EmpName = '{0}', EmpGen = '{1}', EmpDep = {2}, EmpDOB = '{3}', EmpJDate = '{4}', EmpSal = '{5}' where EmpID = '{6}'";
+                    Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary, Key);
                 }
             }
             catch (Exception Ex)
