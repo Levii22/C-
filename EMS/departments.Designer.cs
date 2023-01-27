@@ -38,7 +38,7 @@ namespace EMS
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.departdata = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -133,14 +133,18 @@ namespace EMS
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // departdata
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(238, 189);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(751, 507);
+            this.departdata.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.departdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.departdata.GridColor = System.Drawing.Color.White;
+            this.departdata.Location = new System.Drawing.Point(238, 189);
+            this.departdata.Name = "departdata";
             this.dataGridView1.TabIndex = 39;
+            this.departdata.RowTemplate.Height = 25;
+            this.departdata.Size = new System.Drawing.Size(751, 507);
+            this.departdata.TabIndex = 39;
+            this.departdata.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.departdata_CellClick);
             // 
             // label4
             // 
