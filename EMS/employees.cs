@@ -125,7 +125,12 @@ namespace ems
 
         private void DelBtn_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
