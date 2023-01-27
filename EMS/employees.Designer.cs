@@ -98,6 +98,19 @@ namespace ems
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
+            // 
+            // DepTab
+            // 
+            this.DepTab.AutoSize = true;
+            this.DepTab.BackColor = System.Drawing.Color.Transparent;
+            this.DepTab.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.DepTab.ForeColor = System.Drawing.Color.Black;
+            this.DepTab.Location = new System.Drawing.Point(498, 60);
+            this.DepTab.Name = "DepTab";
+            this.DepTab.Size = new System.Drawing.Size(120, 25);
+            this.DepTab.TabIndex = 29;
+            this.DepTab.Text = "Departments";
+            this.DepTab.Click += new System.EventHandler(this.DepTab_Click);
             // label1
             // 
             this.label1.AutoSize = true;
