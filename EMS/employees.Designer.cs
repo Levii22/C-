@@ -293,12 +293,13 @@ namespace ems
             this.EmpDOB.Size = new System.Drawing.Size(200, 29);
             this.EmpDOB.TabIndex = 23;
             // 
-            // dateTimePicker2
+            // EmpJDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(12, 500);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 29);
-            this.dateTimePicker2.TabIndex = 24;
+            this.EmpJDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.EmpJDate.Location = new System.Drawing.Point(12, 500);
+            this.EmpJDate.Name = "EmpJDate";
+            this.EmpJDate.Size = new System.Drawing.Size(200, 29);
+            this.EmpJDate.TabIndex = 24;
             // 
             // button1
             // 
