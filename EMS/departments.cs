@@ -91,6 +91,7 @@ namespace EMS
                 else
                 {
                     string Dep = DepNameTb.Text;
+                    string Query = "Update DepartmentTable set DepName = '{0}' where DepID = '{1}' ";
                 }
         }
             }
