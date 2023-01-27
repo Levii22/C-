@@ -33,6 +33,7 @@ namespace ems
             EmpName.Text = EmpData.Rows[e.RowIndex].Cells[1].Value.ToString();
             EmpGen.Text = EmpData.Rows[e.RowIndex].Cells[2].Value.ToString();
             EmpDep.SelectedValue = EmpData.Rows[e.RowIndex].Cells[3].Value.ToString();
+            EmpDOB.Value = Convert.ToDateTime(EmpData.Rows[e.RowIndex].Cells[4].Value.ToString());
         }
 
         private void GetDepartments()
