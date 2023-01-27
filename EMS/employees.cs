@@ -72,6 +72,7 @@ namespace ems
                     int salary = Convert.ToInt32(EmpSal.Text);
                     string Jdate = EmpJDate.Value.ToString("yyyy-MM-dd");
                     string DOB = EmpDOB.Value.ToString("yyyy-MM-dd");
+                    string Query = "Insert into EmployeeTable values('{0}','{1}',{2},'{3}','{4}','{5}')";
                 }
             }
         }
