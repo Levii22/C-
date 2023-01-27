@@ -75,6 +75,7 @@ namespace ems
                     string Query = "Insert into EmployeeTable values('{0}','{1}',{2},'{3}','{4}','{5}')";
                     Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
                     Con.SetData(Query);
+                    ListEmployees();
                 }
             }
         }
