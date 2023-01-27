@@ -21,5 +21,13 @@ namespace EMS
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
+            
+        }
+
+        public DataTable GetData(string Query)
+        {
+            Dt = new DataTable();
+        }
+        }
     }
 }
