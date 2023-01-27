@@ -130,4 +130,9 @@ namespace EMS
             }
         }
 
-}
+        private void EmpTab_Click(object sender, EventArgs e)
+        {
+            employees Obj = new employees();
+            Obj.Show();
+            this.Hide();
+        }
