@@ -124,6 +124,10 @@ namespace EMS
                     DepNameTb.Text = "";
                 }
             }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
-    }
+
 }
