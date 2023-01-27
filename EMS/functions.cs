@@ -11,5 +11,6 @@ namespace EMS
     internal class Functions
     {
         private SqlConnection Con;
+        private SqlCommand Cmd;
     }
 }
