@@ -65,6 +65,7 @@ namespace EMS
         {
             if (e.RowIndex >= 0)
             {
+                DataGridViewRow row = this.departdata.Rows[e.RowIndex];
             }
         }
         }
