@@ -73,6 +73,10 @@ namespace EMS
             {
                 Key = 0;
             }
+            else
+            {
+                Key = Key;
+            }
         }
         }
     }
