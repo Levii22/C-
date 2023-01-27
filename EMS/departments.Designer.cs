@@ -45,6 +45,7 @@ namespace EMS
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Delbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -204,9 +205,9 @@ namespace EMS
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.DepTab);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.EmpTab);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -215,28 +216,44 @@ namespace EMS
             this.panel1.Size = new System.Drawing.Size(1013, 88);
             this.panel1.TabIndex = 27;
             // 
+            // Delbutton
+            // 
+            this.Delbutton.BackColor = System.Drawing.Color.IndianRed;
+            this.Delbutton.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.Delbutton.FlatAppearance.BorderSize = 3;
+            this.Delbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Delbutton.Location = new System.Drawing.Point(68, 333);
+            this.Delbutton.Name = "Delbutton";
+            this.Delbutton.Size = new System.Drawing.Size(105, 44);
+            this.Delbutton.TabIndex = 44;
+            this.Delbutton.Text = "Delete";
+            this.Delbutton.UseVisualStyleBackColor = false;
+            // 
             // departments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1013, 709);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Delbutton);
+            this.Controls.Add(this.UpdateBtn);
+            this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.departdata);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.DepNameTb);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "departments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "departments";
+            this.Load += new System.EventHandler(this.departments_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.departdata)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -251,8 +268,8 @@ namespace EMS
         private PictureBox pictureBox2;
         private Label EmpTab;
         private PictureBox pictureBox1;
-        private Button button2;
-        private Button button1;
+        private Button UpdateBtn;
+        private Button AddBtn;
         private DataGridView departdata;
         private Label label4;
         private TextBox DepNameTb;
@@ -260,5 +277,6 @@ namespace EMS
         private Label label11;
         private Label label1;
         private Panel panel1;
+        private Button Delbutton;
     }
 }
