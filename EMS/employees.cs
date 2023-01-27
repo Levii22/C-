@@ -38,6 +38,7 @@ namespace ems
             EmpSal.Text = EmpData.Rows[e.RowIndex].Cells[6].Value.ToString();
             if (EmpName.Text == "")
             {
+                Key = 0;
             }
         }
 
