@@ -285,12 +285,13 @@ namespace ems
             this.EmpData.TabIndex = 22;
             this.EmpData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmpData_CellClick);
             // 
-            // dateTimePicker1
+            // EmpDOB
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 421);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 29);
-            this.dateTimePicker1.TabIndex = 23;
+            this.EmpDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.EmpDOB.Location = new System.Drawing.Point(12, 421);
+            this.EmpDOB.Name = "EmpDOB";
+            this.EmpDOB.Size = new System.Drawing.Size(200, 29);
+            this.EmpDOB.TabIndex = 23;
             // 
             // dateTimePicker2
             // 
