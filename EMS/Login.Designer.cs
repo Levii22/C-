@@ -1,4 +1,4 @@
-﻿namespace ems
+namespace ems
 {
     partial class Login
     {
@@ -71,13 +71,14 @@
             this.textBox1.Size = new System.Drawing.Size(185, 26);
             this.textBox1.TabIndex = 2;
             // 
-            // textBox2
+            // password
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(268, 200);
-            this.textBox2.Name = "textBox2";
+            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.password.Location = new System.Drawing.Point(268, 200);
+            this.password.Name = "password";
             this.textBox2.Size = new System.Drawing.Size(185, 26);
-            this.textBox2.TabIndex = 3;
+            this.password.Size = new System.Drawing.Size(185, 26);
+            this.password.TabIndex = 3;
             // 
             // button1
             // 
