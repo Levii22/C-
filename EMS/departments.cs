@@ -18,6 +18,7 @@ namespace EMS
         {
             InitializeComponent();
             Con = new Functions();
+            ListDepartments();
         }
 
         private void ListDepartments()
