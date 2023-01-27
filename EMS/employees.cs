@@ -36,6 +36,9 @@ namespace ems
             EmpDOB.Value = Convert.ToDateTime(EmpData.Rows[e.RowIndex].Cells[4].Value.ToString());
             EmpJDate.Value = Convert.ToDateTime(EmpData.Rows[e.RowIndex].Cells[5].Value.ToString());
             EmpSal.Text = EmpData.Rows[e.RowIndex].Cells[6].Value.ToString();
+            if (EmpName.Text == "")
+            {
+            }
         }
 
         private void GetDepartments()
