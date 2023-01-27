@@ -37,6 +37,7 @@ namespace EMS
             int cnt = 0;
             if (Con.State == ConnectionState.Closed)
             {
+                Con.Open();
             }
         }
     }
