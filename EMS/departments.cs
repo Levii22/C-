@@ -30,6 +30,12 @@ namespace EMS
         {
 
         }
+
+        private void departments_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void AddBtn_Click_1(object sender, EventArgs e)
         {
             try
@@ -37,6 +43,9 @@ namespace EMS
                 if (DepNameTb.Text == "")
                 {
                     MessageBox.Show("Missing data!");
+                }
+                else
+                {
                 }
             }
         }
