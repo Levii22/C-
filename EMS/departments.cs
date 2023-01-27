@@ -36,6 +36,7 @@ namespace EMS
             {
                 if (DepNameTb.Text == "")
                 {
+                    MessageBox.Show("Missing data!");
                 }
             }
         }
