@@ -64,7 +64,9 @@ namespace ems
                 {
                     MessageBox.Show("Missing data!");
                 }
-            }
+                else
+                {
+                }
             }
         }
 
