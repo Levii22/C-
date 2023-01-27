@@ -66,6 +66,7 @@ namespace ems
                 }
                 else
                 {
+                    string name = EmpName.Text;
                 }
             }
         }
