@@ -43,6 +43,9 @@ namespace ems
             Key = Convert.ToInt32(EmpData.Rows[e.RowIndex].Cells[0].Value.ToString());
         }
 
+        private void DepTab_Click(object sender, EventArgs e)
+        {
+        }
         private void GetDepartments()
         {
             string Query = "SELECT * FROM DepartmentTable";
