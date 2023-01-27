@@ -128,6 +128,7 @@ namespace ems
             try
             {
                 string Query = "Delete from EmployeeTable where EmpID = '{0}'";
+                Query = string.Format(Query, Key);
             catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
