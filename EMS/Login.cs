@@ -12,10 +12,12 @@ namespace ems
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void loginbtn_Click(object sender, EventArgs e)
         {
-
-        }
+            if (username.Text == "" && password.Text == "")
+            {
+                MessageBox.Show("Please enter username and password");
+            }
 
         private void label2_Click(object sender, EventArgs e)
         {
