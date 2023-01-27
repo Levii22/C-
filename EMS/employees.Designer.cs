@@ -86,6 +86,7 @@ namespace ems
             this.logoutbtn.Name = "logoutbtn";
             this.logoutbtn.Size = new System.Drawing.Size(77, 25);
             this.logoutbtn.TabIndex = 31;
+            this.logoutbtn.Text = "Log out";
             this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
             // label1
             // 
