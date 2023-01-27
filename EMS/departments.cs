@@ -119,6 +119,7 @@ namespace EMS
                     string Query = "Delete from DepartmentTable where DepID = '{0}' ";
                     Query = string.Format(Query, Key);
                     Con.SetData(Query);
+                    ListDepartments();
                 }
             }
         }
