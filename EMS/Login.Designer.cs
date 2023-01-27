@@ -148,6 +148,17 @@ namespace ems
             this.label2.Size = new System.Drawing.Size(154, 25);
             this.label2.TabIndex = 11;
             this.label2.Text = "Mohamed Karam";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EMS.Properties.Resources._16147924811618134427_128;
+            this.pictureBox1.Location = new System.Drawing.Point(624, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
