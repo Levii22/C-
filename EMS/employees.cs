@@ -19,6 +19,11 @@ namespace ems
             InitializeComponent();
             Con = new Functions();
         }
+        private void ListEmployees()
+        {
+            string Query = "SELECT * FROM EmployeeTable";
+            EmpData.DataSource = Con.GetData(Query);
+        }
 
         private void label1_Click(object sender, EventArgs e)
         {
