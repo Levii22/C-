@@ -35,6 +35,9 @@ namespace EMS
         public int SetData(string Query)
         {
             int cnt = 0;
+            if (Con.State == ConnectionState.Closed)
+            {
+            }
         }
     }
 }
