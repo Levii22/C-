@@ -301,18 +301,18 @@ namespace ems
             this.EmpJDate.Size = new System.Drawing.Size(200, 29);
             this.EmpJDate.TabIndex = 24;
             // 
-            // button1
+            // Addbtn
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.FlatAppearance.BorderSize = 3;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 630);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 44);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Addbtn.FlatAppearance.BorderColor = System.Drawing.Color.DeepSkyBlue;
+            this.Addbtn.FlatAppearance.BorderSize = 3;
+            this.Addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Addbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Addbtn.Location = new System.Drawing.Point(12, 604);
+            this.Addbtn.Name = "Addbtn";
+            this.Addbtn.Size = new System.Drawing.Size(105, 44);
+            this.Addbtn.TabIndex = 25;
+            this.Addbtn.Text = "Add";
+            this.Addbtn.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
