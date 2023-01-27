@@ -232,13 +232,13 @@ namespace ems
             this.label7.TabIndex = 19;
             this.label7.Text = "Employee Daily Salary";
             // 
-            // textBox5
+            // EmpSal
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(12, 572);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(185, 26);
-            this.textBox5.TabIndex = 18;
+            this.EmpSal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EmpSal.Location = new System.Drawing.Point(12, 572);
+            this.EmpSal.Name = "EmpSal";
+            this.EmpSal.Size = new System.Drawing.Size(185, 26);
+            this.EmpSal.TabIndex = 18;
             // 
             // label8
             // 
