@@ -28,6 +28,8 @@ namespace EMS
         {
             Dt = new DataTable();
             Da = new SqlDataAdapter(Query, ConStr);
+            Da.Fill(Dt);
+            return Dt;
         }
         }
     }
