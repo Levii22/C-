@@ -132,6 +132,7 @@ namespace ems
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 25);
             this.label9.TabIndex = 27;
+            this.label9.Text = "Employees";
             // label1
             // 
             this.label1.AutoSize = true;
