@@ -45,6 +45,7 @@ namespace ems
 
         private void DepTab_Click(object sender, EventArgs e)
         {
+            departments Obj = new departments();
         }
         private void GetDepartments()
         {
