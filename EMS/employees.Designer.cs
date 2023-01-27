@@ -313,6 +313,7 @@ namespace ems
             this.Addbtn.TabIndex = 25;
             this.Addbtn.Text = "Add";
             this.Addbtn.UseVisualStyleBackColor = false;
+            this.Addbtn.Click += new System.EventHandler(this.Addbtn_Click);
             // 
             // UpdateBtn
             // 

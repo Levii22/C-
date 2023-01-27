@@ -56,6 +56,8 @@ namespace ems
             EmpDep.ValueMember = Con.GetData(Query).Columns["DepID"].ToString();
             EmpDep.DataSource = Con.GetData(Query);
         }
+        private void Addbtn_Click(object sender, EventArgs e)
+        {
         }
 
         private void label2_Click(object sender, EventArgs e)
