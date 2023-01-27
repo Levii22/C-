@@ -58,6 +58,9 @@ namespace ems
         }
         private void Addbtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
