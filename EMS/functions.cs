@@ -27,6 +27,7 @@ namespace EMS
         public DataTable GetData(string Query)
         {
             Dt = new DataTable();
+            Da = new SqlDataAdapter(Query, ConStr);
         }
         }
     }
