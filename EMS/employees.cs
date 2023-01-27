@@ -110,6 +110,7 @@ namespace ems
                     Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary, Key);
                     Con.SetData(Query);
                     ListEmployees();
+                    MessageBox.Show("Added.");
                 }
             }
             catch (Exception Ex)
