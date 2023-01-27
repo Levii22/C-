@@ -50,6 +50,7 @@ namespace EMS
                     string Query = "Insert into DepartmentTable values('{0}')";
                     Query = string.Format(Query, DepNameTb.Text);
                     Con.SetData(Query);
+                    ListDepartments();
                 }
             }
         }
