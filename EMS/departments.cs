@@ -48,6 +48,7 @@ namespace EMS
                 {
                     string Dep = DepNameTb.Text;
                     string Query = "Insert into DepartmentTable values('{0}')";
+                    Query = string.Format(Query, DepNameTb.Text);
                 }
             }
         }
