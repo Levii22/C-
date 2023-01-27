@@ -40,6 +40,7 @@ namespace ems
             {
                 Key = 0;
             }
+            Key = Convert.ToInt32(EmpData.Rows[e.RowIndex].Cells[0].Value.ToString());
         }
 
         private void GetDepartments()
