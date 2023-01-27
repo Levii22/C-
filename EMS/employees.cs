@@ -97,6 +97,10 @@ namespace ems
                 {
                     MessageBox.Show("Missing data!");
 
+                }
+                else
+                {
+                }
             }
             catch (Exception Ex)
             {
