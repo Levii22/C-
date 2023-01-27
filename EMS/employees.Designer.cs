@@ -263,17 +263,17 @@ namespace ems
             this.EmpGen.Size = new System.Drawing.Size(182, 29);
             this.EmpGen.TabIndex = 20;
             // 
-            // comboBox2
+            // EmpDep
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.EmpDep.FormattingEnabled = true;
+            this.EmpDep.Items.AddRange(new object[] {
             "ICT",
             "Auto",
             "Mecha"});
-            this.comboBox2.Location = new System.Drawing.Point(15, 349);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(182, 29);
-            this.comboBox2.TabIndex = 21;
+            this.EmpDep.Location = new System.Drawing.Point(15, 349);
+            this.EmpDep.Name = "EmpDep";
+            this.EmpDep.Size = new System.Drawing.Size(182, 29);
+            this.EmpDep.TabIndex = 21;
             // 
             // dataGridView1
             // 
