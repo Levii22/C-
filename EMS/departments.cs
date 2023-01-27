@@ -115,6 +115,7 @@ namespace EMS
                 }
                 else
                 {
+                    string Dep = DepNameTb.Text;
                 }
             }
         }
