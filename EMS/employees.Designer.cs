@@ -275,15 +275,15 @@ namespace ems
             this.EmpDep.Size = new System.Drawing.Size(182, 29);
             this.EmpDep.TabIndex = 21;
             // 
-            // dataGridView1
+            // EmpData
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(238, 176);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(751, 507);
-            this.dataGridView1.TabIndex = 22;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.EmpData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.EmpData.Location = new System.Drawing.Point(238, 176);
+            this.EmpData.Name = "EmpData";
+            this.EmpData.RowTemplate.Height = 25;
+            this.EmpData.Size = new System.Drawing.Size(751, 507);
+            this.EmpData.TabIndex = 22;
+            this.EmpData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmpData_CellClick);
             // 
             // dateTimePicker1
             // 
