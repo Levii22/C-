@@ -18,16 +18,18 @@ namespace ems
             {
                 MessageBox.Show("Please enter username and password");
             }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+   
+            if (username.Text == "admin" && password.Text == "admin")
+            {
+                this.Hide();
+                employees dashboard = new employees();
+                dashboard.Show();
+            }
+            else
         private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+            {
+                MessageBox.Show("Invalid Username or Password");
+            }
 
         private void label1_Click(object sender, EventArgs e)
         {
