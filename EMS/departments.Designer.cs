@@ -1,4 +1,7 @@
-﻿namespace EMS
+using System.Windows.Forms;
+using System;
+
+namespace EMS
 {
     partial class departments
     {
@@ -29,7 +32,7 @@
         private void InitializeComponent()
         {
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.DepTab = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -59,17 +62,17 @@
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
             // 
-            // label10
+            // DepTab
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(498, 60);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(120, 25);
-            this.label10.TabIndex = 29;
-            this.label10.Text = "Departments";
+            this.DepTab.AutoSize = true;
+            this.DepTab.BackColor = System.Drawing.Color.Transparent;
+            this.DepTab.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.DepTab.ForeColor = System.Drawing.Color.Black;
+            this.DepTab.Location = new System.Drawing.Point(498, 60);
+            this.DepTab.Name = "DepTab";
+            this.DepTab.Size = new System.Drawing.Size(120, 25);
+            this.DepTab.TabIndex = 29;
+            this.DepTab.Text = "Departments";
             // 
             // pictureBox2
             // 
