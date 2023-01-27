@@ -102,6 +102,7 @@ namespace ems
                 {
                     string name = EmpName.Text;
                     string gender = EmpGen.SelectedItem.ToString();
+                    int dep = Convert.ToInt32(EmpDep.SelectedValue.ToString());
                 }
             }
             catch (Exception Ex)
