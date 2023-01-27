@@ -83,6 +83,10 @@ namespace ems
                     EmpSal.Text = "";
                 }
             }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
