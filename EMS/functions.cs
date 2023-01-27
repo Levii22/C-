@@ -13,5 +13,6 @@ namespace EMS
         private SqlConnection Con;
         private SqlCommand Cmd;
         private DataTable Dt;
+        private SqlDataAdapter Da;
     }
 }
