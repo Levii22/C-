@@ -71,6 +71,7 @@ namespace ems
                     int dep = Convert.ToInt32(EmpDep.SelectedValue.ToString());
                     int salary = Convert.ToInt32(EmpSal.Text);
                     string Jdate = EmpJDate.Value.ToString("yyyy-MM-dd");
+                    string DOB = EmpDOB.Value.ToString("yyyy-MM-dd");
                 }
             }
         }
