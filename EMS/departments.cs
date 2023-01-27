@@ -84,6 +84,9 @@ namespace EMS
         {
             try
             {
+                if (DepNameTb.Text == "")
+                {
+                }
         }
             }
         }
