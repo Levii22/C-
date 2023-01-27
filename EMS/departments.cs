@@ -51,6 +51,7 @@ namespace EMS
                     Query = string.Format(Query, DepNameTb.Text);
                     Con.SetData(Query);
                     ListDepartments();
+                    MessageBox.Show("Added.");
                 }
             }
         }
