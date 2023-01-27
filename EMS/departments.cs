@@ -67,6 +67,7 @@ namespace EMS
             {
                 DataGridViewRow row = this.departdata.Rows[e.RowIndex];
                 DepNameTb.Text = row.Cells[1].Value.ToString();
+                Key = Convert.ToInt32(row.Cells[0].Value.ToString());
             }
         }
         }
