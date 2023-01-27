@@ -1,4 +1,4 @@
-using EMS;
+﻿using EMS;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -146,6 +146,8 @@ namespace ems
         private void logoutbtn_Click(object sender, EventArgs e)
         {
             Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
         }
     }
 }
