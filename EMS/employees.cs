@@ -18,6 +18,7 @@ namespace ems
         {
             InitializeComponent();
             Con = new Functions();
+            ListEmployees();
         }
         private void ListEmployees()
         {
