@@ -47,6 +47,7 @@ namespace ems
         {
             departments Obj = new departments();
             Obj.Show();
+            this.Hide();
         }
         private void GetDepartments()
         {
