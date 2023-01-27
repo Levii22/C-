@@ -76,6 +76,7 @@ namespace ems
                     Query = string.Format(Query, name, gender, dep, DOB, Jdate, salary);
                     Con.SetData(Query);
                     ListEmployees();
+                    MessageBox.Show("Added.");
                 }
             }
         }
