@@ -175,15 +175,14 @@ namespace ems
             this.label4.Size = new System.Drawing.Size(144, 25);
             this.label4.TabIndex = 9;
             this.label4.Text = "Employee Name";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox1
+            // EmpName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(12, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 26);
-            this.textBox1.TabIndex = 8;
+            this.EmpName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EmpName.Location = new System.Drawing.Point(12, 204);
+            this.EmpName.Name = "EmpName";
+            this.EmpName.Size = new System.Drawing.Size(185, 26);
+            this.EmpName.TabIndex = 8;
             // 
             // label3
             // 
