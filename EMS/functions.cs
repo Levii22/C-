@@ -31,6 +31,9 @@ namespace EMS
             Da.Fill(Dt);
             return Dt;
         }
+
+        public int SetData(string Query)
+        {
         }
     }
 }
