@@ -120,6 +120,8 @@ namespace EMS
                     Query = string.Format(Query, Key);
                     Con.SetData(Query);
                     ListDepartments();
+                    MessageBox.Show("Deleted.");
+                    DepNameTb.Text = "";
                 }
             }
         }
