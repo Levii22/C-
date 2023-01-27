@@ -1,4 +1,5 @@
-﻿using System;
+using EMS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace ems
 {
     public partial class employees : Form
     {
+        Functions Con;
         public employees()
         {
             InitializeComponent();
