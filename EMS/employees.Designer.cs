@@ -252,16 +252,16 @@ namespace ems
             this.label8.TabIndex = 17;
             this.label8.Text = "Join date";
             // 
-            // comboBox1
+            // EmpGen
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.EmpGen.FormattingEnabled = true;
+            this.EmpGen.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(15, 276);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 29);
-            this.comboBox1.TabIndex = 20;
+            this.EmpGen.Location = new System.Drawing.Point(15, 276);
+            this.EmpGen.Name = "EmpGen";
+            this.EmpGen.Size = new System.Drawing.Size(182, 29);
+            this.EmpGen.TabIndex = 20;
             // 
             // comboBox2
             // 
