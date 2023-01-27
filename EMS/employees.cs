@@ -91,8 +91,14 @@ namespace ems
 
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
 
-        }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)
