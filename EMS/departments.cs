@@ -141,6 +141,7 @@ namespace EMS
         {
             Login Obj = new Login();
             Obj.Show();
+            this.Hide();
         }
     }
 }
