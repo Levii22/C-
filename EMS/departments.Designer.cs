@@ -42,7 +42,7 @@ namespace EMS
             this.label4 = new System.Windows.Forms.Label();
             this.DepNameTb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.logoutbtn = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Delbutton = new System.Windows.Forms.Button();
@@ -178,17 +178,17 @@ namespace EMS
             this.label2.Text = "Manage departments";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label11
+            // logoutbtn
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(678, 60);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 25);
-            this.label11.TabIndex = 31;
-            this.label11.Text = "Log out";
+            this.logoutbtn.AutoSize = true;
+            this.logoutbtn.BackColor = System.Drawing.Color.Transparent;
+            this.logoutbtn.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.logoutbtn.ForeColor = System.Drawing.Color.Black;
+            this.logoutbtn.Location = new System.Drawing.Point(678, 60);
+            this.logoutbtn.Name = "logoutbtn";
+            this.logoutbtn.Size = new System.Drawing.Size(77, 25);
+            this.logoutbtn.TabIndex = 31;
+            this.logoutbtn.Text = "Log out";
             // 
             // label1
             // 
@@ -203,7 +203,7 @@ namespace EMS
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.logoutbtn);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.DepTab);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -274,7 +274,7 @@ namespace EMS
         private Label label4;
         private TextBox DepNameTb;
         private Label label2;
-        private Label label11;
+        private Label logoutbtn;
         private Label label1;
         private Panel panel1;
         private Button Delbutton;
